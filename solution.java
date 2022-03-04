@@ -2,55 +2,121 @@ public class Solution {
   
   // use this method as a prototype for your answers...
   void soln1() {
-  // and put your code here.
+    for (int i = 100; i>=5; i = i-5 ){
+      System.out.println(i);
+    }
   }
   
   void soln2() {
-  // and put your code here.
+    for (int i = 100; i>=5; i = i-5 ){
+    }
   }
   
   void soln3() {
-  // and put your code here.
+    int sum = 0;
+   for(int i = 9; i<=17; i++){
+     sum+= i;
+   }
+    System.out.println(sum);
   }
   
   void soln4() {
-  // and put your code here.
+
+    int[] array = {9, 5, 6, 3, 8 ,2, 4};
+    int small = array[0];
+
+    for ( int i = 0; i < array.length; i++){
+      if(array[i] < small){
+      small = array[i];
+      }
+    }
+    System.out.println(small);
   }
   
   void soln5() {
-  // and put your code here.
+
+    int[] array = {9, 5, 6, 3, 8 ,2, 4};
+    int large = array[0];
+
+    for ( int i = 0; i < array.length; i++){
+      if(array[i] > large){
+        large = array[i];
+      }
+    }
+    System.out.println(large);
+
   }
   
   void soln6() {
-  // and put your code here.
+  boolean[] array = {false, false, false, true, false};
+
+  for (int i = 0; i <= array.length; i++){
+    if(array[i]){
+      System.out.println("index of " + i +" is true");
+      break;
+    }
+  }
+
   }
   
   void soln7() {
-  // and put your code here.
+    boolean[] array = {false, false, false, true, false};
+    int i = 0;
+    while(!array[i]){
+      i++;
+    }
+    System.out.println("index of " + i +" is true");
   }
   
   void soln8() {
-  // and put your code here.
+
+    int[] array = {9, 5, 6, 3, 8, 2, 4};
+
+    for (int i = 0; i < array.length; i++ ){
+      array[i] += 5;
+    }
+
   }
   
   void soln9() {
-  // and put your code here.
+    double[] array = {0.5, 1.4, 6.7, 123.4 -34.6};
+    for (int i = 0; i < array.length; i++ ){
+      array[i] /= 1.3;
+    }
+
   }
   
   void soln10() {
-  // and put your code here.
+    double[] array = {1.3, 5.4, 6.1, 1.0, 9.2};
+
+    for (int i = 0; i < array.length; i++ ){
+      array[i] = Math.pow(array[i], 3) - (array[i]/3);
+    }
+
   }
   
   void soln11() {
-  // and put your code here.
+    int[][] array = new int[4][6];
+    for (int i = 0; i < 4; i++){
+      for(int j = 0; j < 6; j++){
+        array[i][j] = 0;
+      }
+    }
   }
   
   void soln12() {
-  // and put your code here.
+    int[][] array = new int[4][6];
+    for (int i = 0; i < 4; i++){
+      for(int j = 0; j < 6; j++){
+        array[i][j] = i*j*5;
+      }
+    }
   }
   
   void soln13() {
-  // and put your code here.
+    int[]
+
+
   }
   
   void soln14() {
