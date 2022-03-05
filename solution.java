@@ -114,8 +114,18 @@ public class Solution {
   }
   
   void soln13() {
-    int[]
+    boolean[][] boolArray = new boolean[5][5];
 
+    for (int i = 1; i <= 5 ; i++){
+      for(int j = 1; j <= 5; j++){
+        if(( (j*i)%2 == 0)){
+          boolArray[i][j] = true;
+          System.out.println(true);
+        }
+        else boolArray[i][j] = false;
+        System.out.println(false);
+      }
+    }
 
   }
   
