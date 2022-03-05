@@ -129,40 +129,91 @@ public class Solution {
 
   }
   
-  void soln14() {
-  // and put your code here.
+  void double soln14(double value1, double value2
+  ) {
+  // and put your cod
+
+    double output = Math.pow(value1,value2);
+    return output;
   }
   
-  void soln15() {
+  void boolean soln15() {
   // and put your code here.
+    boolean output = false;
+
+
+    return
   }
   
   void soln16() {
   // and put your code here.
+
+    if(Balance <= 1.0){
+      System.out.println("Paid off");
+    } else {
+      System.out.format("%.2f", Balance);;
+    }
+
   }
   
   void soln17() {
   // and put your code here.
+    double temp = thermo.getTemp();
+    boolean onOff = false;
+
+    if (temp <72.0){
+      onOff = true; //turn on
+    } else if (temp > 72){
+      onOff= false; //turn off
+    }
+
   }
   
   void soln18() {
   // and put your code here.
+    double[] array = new double[10];
+
+    for (int i = 0; i < array.length; i++){
+      if(array[i] > 3.14){
+        System.out.println("At index " + i " ," + array[i] + " is greater than PI.");
+      }
+    }
+
+
   }
   
   void soln19() {
   // and put your code here.
+
+
   }
   
   void soln20() {
   // and put your code here.
+
   }
   
   void soln21() {
-  // and put your code here.
+
+    String output = "";
+
+    for (int i = 1; i <= 5; i++){
+      for(int j = 1; j <= 5; j++){
+        output += j*i;
+      }
+    }
+
+
   }
   
   void soln22() {
   // and put your code here.
+    double hypotenuse;
+    double width = 3;
+    double length = 3;
+
+    hypotenuse = Math.sqrt(Math.pow(width, 2) + Math.pow(length,2));
+
   }
   
 }
